@@ -42,4 +42,12 @@ Harga: Rp 1.948.000
         android:textSize="20sp"
         android:textStyle="bold" />
 
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="share"
+        android:layout_below="@id/tvparfgc3desc"
+        android:layout_centerInParent="true"/>
+
 </RelativeLayout>

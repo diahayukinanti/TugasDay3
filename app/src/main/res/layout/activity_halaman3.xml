@@ -9,7 +9,7 @@
     tools:context=".Halaman3">
 
     <Button
-        android:id="@+id/btn1.3"
+        android:id="@+id/btn1_3"
         android:layout_width="379dp"
         android:layout_height="125dp"
         android:contentDescription=" "
@@ -62,7 +62,7 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btn2.3"
+        android:id="@+id/btn2_3"
         android:layout_width="379dp"
         android:layout_height="125dp"
         android:backgroundTint="#9E732C"
@@ -118,7 +118,7 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btn3.3"
+        android:id="@+id/btn3_3"
         android:layout_width="379dp"
         android:layout_height="125dp"
         android:backgroundTint="#9E732C"
@@ -176,7 +176,7 @@
 
 
     <Button
-        android:id="@+id/btn4.3"
+        android:id="@+id/btn4_3"
         android:layout_width="379dp"
         android:layout_height="125dp"
         android:backgroundTint="#9E732C"
@@ -231,7 +231,7 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btn5.3"
+        android:id="@+id/btn5_3"
         android:layout_width="379dp"
         android:layout_height="125dp"
         android:backgroundTint="#9E732C"

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="#E1BF6B"
+    android:layout_height="match_parent"
+    tools:context=".Halaman2">
+
+    <Button
+        android:id="@+id/btn1.2"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:contentDescription=" "
+        android:backgroundTint="#9E732C"/>
+
+    <ImageView
+        android:id="@+id/ivparfcn1"
+        android:layout_width="105dp"
+        android:layout_height="87dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="17dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/parfcn1" />
+    <TextView
+        android:id="@+id/tvparfcn1"
+        android:layout_width="203dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="45dp"
+        android:text="Untuk Wanita, jenis EDP, Ukuran 100ml, diluncurkan pada tahun 2001 No BPOM : NC14210600548"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvtitlleparfcn1"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="10dp"
+        android:text="Chanel Coco Mademoiselle Intense Woman "
+        android:textColor="#590909"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvhargaparfcn1"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="91dp"
+        android:text="Harga Rp 3.733.000"
+        android:textColor="#590909"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn2.2"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:backgroundTint="#9E732C"
+        android:layout_marginTop="140dp"
+        android:contentDescription=" " />
+    <ImageView
+        android:id="@+id/ivparfcn2"
+        android:layout_width="89dp"
+        android:layout_height="98dp"
+        android:layout_below="@id/ivparfcn1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="153dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/parfcn2" />
+    <TextView
+        android:id="@+id/tvtitlleparfcn2"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="150dp"
+        android:text="Chanel Chance Eau Tendre Woman EDT"
+        android:textColor="#590909"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvparfcn2"
+        android:layout_width="203dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="185dp"
+        android:text="Untuk Wanita, jenis EDT, ukuran 100 ML, diluncurkan pada 2019, no BPOM : NC14180602506"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvhargaparfcn2"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="233dp"
+        android:text="Harga Rp 3.298.000"
+        android:textColor="#590909"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn3.2"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:backgroundTint="#9E732C"
+        android:layout_marginTop="280dp"
+        android:contentDescription=" " />
+    <ImageView
+        android:id="@+id/ivparfcn3"
+        android:layout_width="89dp"
+        android:layout_height="98dp"
+        android:layout_below="@id/ivparfcn2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="293dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/parfcn3" />
+    <TextView
+        android:id="@+id/tvtitlleparfcn3"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="290dp"
+        android:text="Chanel Gabrielle Essence EDP"
+        android:textColor="#590909"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvparfcn3"
+        android:layout_width="203dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="325dp"
+        android:text="Untuk Wanita, jenis EDP, ukuran 100 ML, diluncurkan pada tahun 2019, no BPOM : NC14210600537"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvhargaparfcn3"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="373dp"
+        android:text="Harga Rp 3.498.000"
+        android:textColor="#590909"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn4.2"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:backgroundTint="#9E732C"
+        android:layout_marginTop="420dp"
+        android:contentDescription=" " />
+    <ImageView
+        android:id="@+id/ivparfcn4"
+        android:layout_width="89dp"
+        android:layout_height="98dp"
+        android:layout_below="@id/ivparfcn3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="433dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/parfcn4" />
+    <TextView
+        android:id="@+id/tvtitlleparfcn4"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="430dp"
+        android:text="Chanel Allure Homme Sport Eau Extreme Man"
+        android:textColor="#590909"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvparfcn4"
+        android:layout_width="203dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="467dp"
+        android:text="Untuk Pria, jenis EDT, ukuran 100 ML, diluncurkan pada tahun 2012, no BPOM : NC14210600506"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvhargaparfcn4"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="515dp"
+        android:text="Harga Rp 3.298.000"
+        android:textColor="#590909"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:backgroundTint="#9E732C"
+        android:layout_marginTop="565dp"
+        android:contentDescription=" " />
+
+    <ImageView
+        android:id="@+id/ivparfcn5"
+        android:layout_width="89dp"
+        android:layout_height="98dp"
+        android:layout_below="@id/ivparfcn4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="578dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/parfcn5" />
+    <TextView
+        android:id="@+id/tvtitlleparfcn5"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="575dp"
+        android:text="Chanel Bleu De Chanel Man Parfum "
+        android:textColor="#590909"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvparfcn5"
+        android:layout_width="203dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="610dp"
+        android:text="Untuk Pria, jenis Parfum, ukuran 100 ML, diluncurkan pada tahun 2018, no BPOM: NC14210600631"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvhargaparfcn5"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="657dp"
+        android:text="Harga Rp 3.498.000"
+        android:textColor="#590909"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

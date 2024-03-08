@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="#E1BF6B"
+    android:layout_height="match_parent"
+    tools:context=".Halamanparfcn4">
+
+    <ImageView
+        android:id="@+id/ivparfcn4desc"
+        android:layout_width="348dp"
+        android:layout_height="166dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="7dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/parfcn4" />
+
+    <TextView
+        android:id="@+id/tvparfcn4desc"
+        android:layout_width="391dp"
+        android:layout_height="259dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="201dp"
+        android:text="- Untuk : Pria
+- Jenis : EDT
+- Ukuran : 100ml
+- Top Note : Sage, Mandarin Orange, Mint, Cypress
+- Middle Note : Pepper
+- Base Note : Musk, Sandalwood, Cedar, Tonka Bean
+- Parfum Chanel Allure Homme Sport Eau Extreme Man diluncurkan pada tahun 2012 No BPOM : NC14210600506
+Harga  Rp 3.298.000
+"
+        android:textColor="#573A1C"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="#E1BF6B"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvintent"
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"
+        android:text="₊˚⊹♡ D'luxury Parfume ♡⊹˚₊"
+        android:textAlignment="center"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textColor="#493A16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/btn1"
+        android:layout_width="204dp"
+        android:layout_height="124dp"
+        android:layout_below="@id/tvintent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:contentDescription="Tombol untuk mengakses channel"
+        android:onClick="onImageButtonClick"
+        android:src="@drawable/chaneln" />
+
+    <ImageButton
+        android:id="@+id/btn2"
+        android:layout_width="205dp"
+        android:layout_height="135dp"
+        android:layout_below="@id/tvintent"
+        android:layout_marginTop="214dp"
+        android:onClick="onImageButtonClick"
+        android:src="@drawable/guccci"
+        android:contentDescription="Tombol untuk mengakses channel"
+        android:layout_centerInParent="true"/>
+
+    <ImageButton
+        android:id="@+id/btn3"
+        android:layout_width="205dp"
+        android:layout_height="135dp"
+        android:layout_below="@id/tvintent"
+        android:layout_marginTop="400dp"
+        android:onClick="onImageButtonClick"
+        android:src="@drawable/d"
+        android:contentDescription="Tombol untuk mengakses channel"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>

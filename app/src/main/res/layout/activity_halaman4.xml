@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="#E1BF6B"
+    android:layout_height="match_parent"
+    tools:context=".Halaman4">
+
+    <Button
+        android:id="@+id/btn1.4"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:contentDescription=" "
+        android:backgroundTint="#9E732C"/>
+    <ImageView
+        android:id="@+id/ivparfdr1"
+        android:layout_width="105dp"
+        android:layout_height="87dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="17dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/parfdr1" />
+    <TextView
+        android:id="@+id/tvtitlleparfdr1"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="10dp"
+        android:text="Christian Dior Miss Dior Blooming Bouquet Woman"
+        android:textColor="#590909"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvparfdr1"
+        android:layout_width="203dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="47dp"
+        android:text="Untuk wanita, jenis EDT, ukuran 100 ML, diluncurkan pada tahun 2014, no BPOM : NC14210600278"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvhargaparfdr1"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="91dp"
+        android:text="Harga Rp 2.298.000"
+        android:textColor="#590909"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn2.4"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:backgroundTint="#9E732C"
+        android:layout_marginTop="140dp"
+        android:contentDescription=" " />
+    <ImageView
+        android:id="@+id/ivparfdr2"
+        android:layout_width="89dp"
+        android:layout_height="98dp"
+        android:layout_below="@id/ivparfdr1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="153dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/parfdr2" />
+    <TextView
+        android:id="@+id/tvtitlleparfdr2"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="150dp"
+        android:text="Christian Dior J'adore Infinissime EDP"
+        android:textColor="#590909"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvparfdr2"
+        android:layout_width="203dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="185dp"
+        android:text="Untuk wanita, jenis EDP, ukuran 100 ML, diluncurkan pada tahun 2020, no BPOM : NC14200600182"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvhargaparfdr2"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="233dp"
+        android:text="Harga Rp 2.298.000"
+        android:textColor="#590909"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn3.4"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:backgroundTint="#9E732C"
+        android:layout_marginTop="280dp"
+        android:contentDescription=" " />
+
+    <ImageView
+        android:id="@+id/ivparfdr3"
+        android:layout_width="89dp"
+        android:layout_height="93dp"
+        android:layout_below="@id/ivparfdr2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="293dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/parfdr3" />
+    <TextView
+        android:id="@+id/tvtitlleparfdr3"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="290dp"
+        android:text="Christian Dior Pure Poison Woman"
+        android:textColor="#590909"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvparfdr3"
+        android:layout_width="203dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="325dp"
+        android:text="Untuk wanita, jenis EDP, ukuran 100 ML, diluncurkan pada tahun 2004, no BPOM : NC14140602371"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvhargaparfdr3"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="373dp"
+        android:text="Harga Rp 2.948.000"
+        android:textColor="#590909"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn4.4"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:backgroundTint="#9E732C"
+        android:layout_marginTop="420dp"
+        android:contentDescription=" " />
+    <ImageView
+        android:id="@+id/ivparfdr4"
+        android:layout_width="89dp"
+        android:layout_height="98dp"
+        android:layout_below="@id/ivparfdr3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="433dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/parfdr4" />
+    <TextView
+        android:id="@+id/tvtitlleparfdr4"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="430dp"
+        android:text="Christian Dior Sauvage Man "
+        android:textColor="#590909"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvparfdr4"
+        android:layout_width="203dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="455dp"
+        android:text="Untuk pria, jenis parfum, ukuran 100ML, diluncurkan pada tahun 2019, no BPOM : NC14190605184"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvhargaparfdr4"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="515dp"
+        android:text="Harga Rp 2.998.000"
+        android:textColor="#590909"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn5.4"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:backgroundTint="#9E732C"
+        android:layout_marginTop="565dp"
+        android:contentDescription=" " />
+
+    <ImageView
+        android:id="@+id/ivparfdr5"
+        android:layout_width="93dp"
+        android:layout_height="88dp"
+        android:layout_below="@id/ivparfdr4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="580dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/parfdr5" />
+    <TextView
+        android:id="@+id/tvtitlleparfdr5"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="575dp"
+        android:text="Christian Dior Sauvage Elixir Man"
+        android:textColor="#590909"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvparfdr5"
+        android:layout_width="203dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="612dp"
+        android:text="Untuk pria, jenis elixir, ukuran 60 ML, diluncurkan pada tahun 2021, no BPOM : NC14210600217"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvhargaparfdr5"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="657dp"
+        android:text="Harga Rp 3.148.000"
+        android:textColor="#590909"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+</RelativeLayout>

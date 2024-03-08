@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="#E1BF6B"
+    android:layout_height="match_parent"
+    tools:context=".Halamanparfgc5">
+
+    <ImageView
+        android:id="@+id/ivparfgc5desc"
+        android:layout_width="196dp"
+        android:layout_height="225dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/parfgc5" />
+
+    <TextView
+        android:id="@+id/tvparfgc4desc"
+        android:layout_width="391dp"
+        android:layout_height="259dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-8dp"
+        android:layout_marginTop="286dp"
+        android:text="- Untuk : Pria
+- Jenis : Parfum
+- Ukuran : 90 ML
+- Top Notes : Juniper, Lavender and Lemon.
+- Middle Notes : Orange Blossom, Nutmeg and Spanish Labdanum.
+- Base Notes : Patchouli, Dry Wood and Musk.
+- Parfum Gucci Guilty Pour Homme Man Parfum diluncurkan tahun 2022.
+
+No BPOM : NC47220600010
+Harga: Rp 2.248.000
+"
+        android:textColor="#573A1C"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+
